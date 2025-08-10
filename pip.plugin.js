@@ -76,8 +76,5 @@ function checkAndAddButton() {
   }
 }
 
-//document.addEventListener('change', function() {
-//	checkControls()
-//});
 
 setInterval(checkAndAddButton, 250);
