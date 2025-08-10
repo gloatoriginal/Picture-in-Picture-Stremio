@@ -69,7 +69,7 @@ function checkAndAddButton() {
   if (
     document.querySelector("video") && document.querySelector('[class*="control-bar-layer-"]')
   ) {
-    setControls();
+    addButton();
   } else {
 	console.log("video: " + document.querySelector("video"))
 	console.log("control bar: " + document.querySelector('[class*="control-bar-layer-"]'))
