@@ -1,3 +1,11 @@
+/**
+ * @name Picture-in-Picture
+ * @description Brings Picture-in-Picture (Media Popout) support to Stremio.
+ * @version 1.0.0
+ * @author Fxy
+ * @updateUrl https://raw.githubusercontent.com/fxy6969/Stremio-PIP/main/pip.plugin.js
+ */
+
 function addButton() {
   let videoPlayer = document.querySelector("video");
   let bottomControl = document.querySelector('[class*="control-bar-layer-"]');
